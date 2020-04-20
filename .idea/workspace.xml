@@ -11,14 +11,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c9a2514-09ab-4de1-b9ab-112236ed2f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/live-chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/live-chat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/assets/stylesheets/custom.css.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/javascript/custom/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/views/chatrooms/_chatroom.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/views/chatrooms/create.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/views/chatrooms/new.js.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../app/assets/stylesheets/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../app/assets/stylesheets/scaffolds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/chatrooms_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/chatrooms_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/javascript/packs/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/_chatroom.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/chatrooms/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/chatrooms/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/home/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/webpack/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/../config/webpack/environment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587382595752</updated>
       <workItem from="1587382599362" duration="99000" />
-      <workItem from="1587382785976" duration="11834000" />
+      <workItem from="1587382785976" duration="29085000" />
     </task>
     <servers />
   </component>
@@ -188,54 +203,62 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="445" y="211" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395360503" />
+    <state x="720" y="302" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587396691604">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state x="720" y="302" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587396691604" />
     <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl" timestamp="1587395354515">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395354515" />
-    <state width="1819" height="279" key="GridCell.Tab.0.bottom" timestamp="1587389140754">
+    <state width="1819" height="279" key="GridCell.Tab.0.bottom" timestamp="1587413589787">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.0.bottom/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140754" />
-    <state width="1819" height="279" key="GridCell.Tab.0.center" timestamp="1587389140754">
+    <state width="1819" height="279" key="GridCell.Tab.0.bottom/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587413589787" />
+    <state width="1819" height="279" key="GridCell.Tab.0.center" timestamp="1587413589786">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.0.center/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140754" />
-    <state width="1819" height="279" key="GridCell.Tab.0.left" timestamp="1587389140753">
+    <state width="1819" height="279" key="GridCell.Tab.0.center/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587413589786" />
+    <state width="1819" height="279" key="GridCell.Tab.0.left" timestamp="1587413589786">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.0.left/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140753" />
-    <state width="1819" height="279" key="GridCell.Tab.0.right" timestamp="1587389140754">
+    <state width="1819" height="279" key="GridCell.Tab.0.left/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587413589786" />
+    <state width="1819" height="279" key="GridCell.Tab.0.right" timestamp="1587413589787">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.0.right/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140754" />
-    <state width="1819" height="279" key="GridCell.Tab.1.bottom" timestamp="1587389140755">
+    <state width="1819" height="279" key="GridCell.Tab.0.right/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587413589787" />
+    <state width="1819" height="279" key="GridCell.Tab.1.bottom" timestamp="1587412828450">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.1.bottom/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140755" />
-    <state width="1819" height="279" key="GridCell.Tab.1.center" timestamp="1587389140754">
+    <state width="1819" height="279" key="GridCell.Tab.1.bottom/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587412828450" />
+    <state width="1819" height="279" key="GridCell.Tab.1.center" timestamp="1587412828450">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.1.center/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140754" />
-    <state width="1819" height="279" key="GridCell.Tab.1.left" timestamp="1587389140754">
+    <state width="1819" height="279" key="GridCell.Tab.1.center/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587412828450" />
+    <state width="1819" height="279" key="GridCell.Tab.1.left" timestamp="1587412828450">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.1.left/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140754" />
-    <state width="1819" height="279" key="GridCell.Tab.1.right" timestamp="1587389140755">
+    <state width="1819" height="279" key="GridCell.Tab.1.left/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587412828450" />
+    <state width="1819" height="279" key="GridCell.Tab.1.right" timestamp="1587412828450">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state width="1819" height="279" key="GridCell.Tab.1.right/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587389140755" />
+    <state width="1819" height="279" key="GridCell.Tab.1.right/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587412828450" />
     <state x="476" y="188" key="SettingsEditor" timestamp="1587394174886">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="476" y="188" key="SettingsEditor/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587394174886" />
+    <state x="582" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1587395908443">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state x="582" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395908443" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1587395008185">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state width="600" height="428" key="javadoc.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395008185" />
-    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587390077445">
+    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587412918038">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587390077445" />
+    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587412918038" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/_@Development__live_chat.rcov" NAME="Development: live-chat Coverage Results" MODIFIED="1587383381281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="live-chat" />
