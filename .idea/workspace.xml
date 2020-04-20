@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c9a2514-09ab-4de1-b9ab-112236ed2f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../app/views/layouts/_navigation.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/live-chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/live-chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -158,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587382595752</updated>
       <workItem from="1587382599362" duration="99000" />
-      <workItem from="1587382785976" duration="11131000" />
+      <workItem from="1587382785976" duration="11834000" />
     </task>
     <servers />
   </component>
@@ -177,10 +184,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="211" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587386631302">
+    <state x="445" y="211" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587395360503">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state x="445" y="211" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587386631302" />
+    <state x="445" y="211" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395360503" />
+    <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl" timestamp="1587395354515">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395354515" />
     <state width="1819" height="279" key="GridCell.Tab.0.bottom" timestamp="1587389140754">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
@@ -217,6 +228,10 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="476" y="188" key="SettingsEditor/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587394174886" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1587395008185">
+      <screen x="55" y="27" width="1865" height="1053" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395008185" />
     <state x="650" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587390077445">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
