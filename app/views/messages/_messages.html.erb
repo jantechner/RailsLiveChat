@@ -1,0 +1,7 @@
+<section id="messages" data-channel="messages" data-chatroom-id="<%= chatroom.id %>">
+  <%= render chatroom.messages %>
+</section>
+
+<div id='new_message'>
+  <%= render 'messages/form', chatroom: chatroom %>
+</div>
