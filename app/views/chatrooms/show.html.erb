@@ -1,15 +1,10 @@
+
+
 <p id="notice"><%= notice %></p>
 <p>
   <strong>Topic:</strong>
   <%= @chatroom.topic %>
 </p>
 
-<%= link_to 'Edit', edit_chatroom_path(@chatroom) %> | <%= link_to 'Back', chatrooms_path %>
-
-<%# <div id="messages" style="margin: 30px 0;"> %>
-  <%# <%= render partial: 'messages/message', collection: @chatroom.messages%> 
-<%# </div> %>
-
-<%# <%= render 'messages/form', chatroom: @chatroom %>
-
 <%= render 'messages/messages', chatroom: @chatroom %>
+

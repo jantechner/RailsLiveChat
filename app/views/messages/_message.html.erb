@@ -1,4 +1,8 @@
-<article data-user-id="<%= message.user.id %>">
-  <h3>Comment by <%= message.user.username %></h3>
-  <p><%= message.content %></p>
-</article>
+<div class="row message rounded border border-dark" data-user-id="<%= message.user.id %>">
+  <div class="col-12 message-content">
+    <%= message.content %>
+  </div>
+  <div class="col-12 message-author">
+    <%= message.user.username %>
+  </div>
+</div>

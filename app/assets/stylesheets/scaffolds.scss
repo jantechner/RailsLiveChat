@@ -1,35 +1,11 @@
 body {
-  background-color: #fff;
-  color: #333;
-  margin: 33px;
+  background-color: #ffffff;
 }
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
 }
 
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
-}
-
-th {
-  padding-bottom: 5px;
-}
-
-td {
-  padding: 0 5px 7px;
-}
-
-div.field,
-div.actions {
-  margin-bottom: 10px;
-}
-
-#notice {
-  color: green;
-}
 
 .field_with_errors {
   padding: 2px;
@@ -58,8 +34,4 @@ div.actions {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
-}
-
-label {
-  display: block;
 }
