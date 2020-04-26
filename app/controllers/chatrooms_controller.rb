@@ -1,5 +1,6 @@
 class ChatroomsController < ApplicationController
   before_action :set_chatroom, only: [:show, :edit, :update, :destroy]
+  skip_before_action :check_user, only: [:index]
 
   # GET /chatrooms
   # GET /chatrooms.json
@@ -24,7 +25,7 @@ class ChatroomsController < ApplicationController
   def create
     @chatroom = Chatroom.create(chatroom_params)
     # if @chatroom.save
-    #   # redirect_to @chatroom, notice: 'Chatroom was successfully created.'
+    #   redirect_to @chatroom, notice: 'Chatroom was successfully created.'
     # else
     #   render :new
     # end

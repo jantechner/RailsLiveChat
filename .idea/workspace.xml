@@ -11,21 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c9a2514-09ab-4de1-b9ab-112236ed2f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/0253c886-6741-49d8-9151-d9c5b6201056.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/0253c886-6741-49d8-9151-d9c5b6201056/storage_v2/_src_/database/livechat.RO6GVA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/0253c886-6741-49d8-9151-d9c5b6201056/storage_v2/_src_/database/livechat.RO6GVA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/0253c886-6741-49d8-9151-d9c5b6201056/storage_v2/_src_/database/livechat.RO6GVA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/0253c886-6741-49d8-9151-d9c5b6201056/storage_v2/_src_/database/livechat.RO6GVA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/assets/stylesheets/messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../app/assets/stylesheets/messages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../app/assets/stylesheets/scaffolds.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/chatrooms_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/chatrooms_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/home_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/chatrooms/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/views/chatrooms/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/chatrooms/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/views/messages/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/messages/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/views/messages/_message.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/messages/_message.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/development.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db/development.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -176,6 +173,9 @@
       <workItem from="1587480338794" duration="261000" />
       <workItem from="1587480612595" duration="166000" />
       <workItem from="1587551484126" duration="1686000" />
+      <workItem from="1587858652644" duration="64000" />
+      <workItem from="1587858717445" duration="55000" />
+      <workItem from="1587858793499" duration="2713000" />
     </task>
     <servers />
   </component>
@@ -203,10 +203,10 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state x="720" y="302" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587396691604" />
-    <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl" timestamp="1587395354515">
+    <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl" timestamp="1587858714603">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395354515" />
+    <state x="628" y="305" width="424" height="480" key="FileChooserDialogImpl/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587858714603" />
     <state width="1819" height="279" key="GridCell.Tab.0.bottom" timestamp="1587570118168">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
@@ -255,10 +255,10 @@
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
     <state width="600" height="428" key="javadoc.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587395008185" />
-    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587412918038">
+    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587859070670">
       <screen x="55" y="27" width="1865" height="1053" />
     </state>
-    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587412918038" />
+    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup/55.27.1865.1053/1920.0.1920.1080@55.27.1865.1053" timestamp="1587859070670" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/_@Development__live_chat.rcov" NAME="Development: live-chat Coverage Results" MODIFIED="1587551760071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="live-chat" />

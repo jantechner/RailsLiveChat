@@ -1,14 +1,15 @@
+<div class="row">
+  <%= form_with model: [chatroom, Message.new], id: 'new_message_form', class: 'row fixed-bottom' do |form| %>
+    <%= form.hidden_field :chatroom_id, value: chatroom.id %>
+    <%= form.hidden_field :user_id, value: current_user.id %>
 
-<%= form_with model: [chatroom, Message.new], id: 'new_message_form', class: 'row fixed-bottom' do |form| %>
-  <%= form.hidden_field :chatroom_id, value: chatroom.id %>
-  <%= form.hidden_field :user_id, value: current_user.id %>
-
-  <div class="form-group col-10">
-    <%= form.text_field :content, class: 'form-control'%>
-  </div>
+    <div class="form-group col-10">
+      <%= form.text_field :content, class: 'form-control' %>
+    </div>
 
 
-  <div class="actions col-2">
-    <%= form.submit 'Send', class: 'form-control btn btn-primary' %>
-  </div>
-<% end %>
+    <div class="actions col-2">
+      <%= form.submit 'Send', class: 'form-control btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
